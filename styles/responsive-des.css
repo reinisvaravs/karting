@@ -1,0 +1,108 @@
+@media screen and (max-width: 1200px) {
+  .video-bg {
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #container {
+    width: 95%;
+  }
+  
+  .hero {
+    height: 90vh;
+  }
+
+  #item {
+    width: 48%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #nav {
+    padding: 0;
+  }
+
+  #logo-div {
+    width: 30%;
+  }
+
+  ul {
+    width: 70%;
+  }
+
+  li button {
+    padding: 12px;
+    font-size: 14px;
+  }
+
+  #par-mums-container {
+    width: 85%;
+  }
+
+  .hero {
+    height: 80vh;
+  }
+
+  .virsraksts {
+    font-size: 22px;
+  }
+
+  .virsraksts2 {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #container {
+    width: 90%;
+  }
+
+  #item {
+    width: 100%;
+  }
+
+  #logo {
+    height: 70%;
+  }
+
+  .hero {
+    height: 70vh;
+  }
+
+  .virsraksts {
+    font-size: 20px;
+  }
+
+  .footer-text {
+    font-size: 14px;
+  }
+
+  .logo {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #tel-text {
+    width: clamp(1rem, 30vw, 15rem);
+  }
+}
+
+@media screen and (max-width: 380px) {
+  li button {
+    font-size: 12px;
+  }
+  .hero {
+    height: 50vh;
+  }
+  #tel-text {
+    width: clamp(1rem, 40vw, 15rem);
+  }
+}
+
+@media screen and (max-width: 340px) {
+  li button {
+    font-size: 10px;
+  }
+}

@@ -1,0 +1,23 @@
+#par-mums-container {
+    width: 70%;
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+.karte {
+  width: 100%;
+  border: 1px solid yellow;
+  border-radius: 20px;
+  margin-bottom: 40px;
+  transition: transform 0.3s ease;
+}
+
+.karte:hover {
+  transform: scale(1.02);
+}
+
+p {
+    color: white;
+    font-weight: 200;
+    line-height: 25px;
+}

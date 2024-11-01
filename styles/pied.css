@@ -1,0 +1,84 @@
+.container-pied {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    flex-direction: column;
+}
+.card {
+    background-color: #131416;
+    width: 80%;
+    height: 60vh;
+    border-radius: 15px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.card-image {
+    width: 100%;
+    height: 50%;
+    background-image: url(../images/kartings.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 80%;
+    position: relative;
+    overflow: hidden;
+}
+.card-image::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 100%);
+}
+.card-copy {
+    width: 100%;
+    height: 50%;
+    h1 {
+        color: #fcfcfc;
+        margin: 3vw 0 0 3vw;
+        font-size: clamp(16px, 4vw, 40px);
+    }
+    p {
+        color: #e8e8e8;
+        margin: 4vw 0 0 3vw;
+        font-size: clamp(12px, 2vw, 25px);
+        overflow: hidden;
+        line-height: clamp(15px, 3vw, 30px);
+    }
+    p:nth-child(3) {
+        color: gold;
+        margin: 0 0 0 3vw;
+    }
+}
+.card-stick {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+@media screen and (min-width: 1200px) {
+    .card {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .card-image {
+        width: 60%;
+        height: 100%;
+    }
+    .card-copy {
+        width: 40%;
+        height: 100%;
+    }
+    .card-image::after {
+        display: none;
+    }
+}

@@ -1,5 +1,4 @@
 
-console.log("update 3");
 
 function showPage(page) {
     document.querySelectorAll(".pages").forEach(div => {
@@ -46,25 +45,3 @@ window.onload = () => {
         behavior: 'smooth' 
     });
 }
-
-
-let xKeyPressed = false;
-let timer = null;
-
-document.addEventListener('keydown', (event) => {
-  if (event.key === 'X') {
-    if (!xKeyPressed) {
-      xKeyPressed = true;
-      timer = setTimeout(() => {
-        console.log("rrv")
-      }, 1000); 
-    }
-  }
-});
-
-document.addEventListener('keyup', (event) => {
-  if (event.key === 'X') {
-    clearTimeout(timer);
-    xKeyPressed = false;
-  }
-});

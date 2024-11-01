@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="./styles/kontakti.css">
   <link rel="stylesheet" href="./styles/footer.css">
   <link rel="stylesheet" href="./styles/responsive-des.css">
+  <link rel="stylesheet" href="./styles/pied.css">
 </head>
 <body>
  
@@ -43,7 +44,12 @@
       </video>
     </div>
 
-    <h2 class="virsraksts">Piedāvājam</h2>  
+    <h2 class="virsraksts">Piedāvājam</h2>
+
+
+
+    
+
     <div id="container">
       <div id="item">
         <h3 class="virsraksts2">Kartingu noma</h3>
@@ -75,6 +81,38 @@
       </div>
 
     </div>
+
+    
+
+
+    <!-- <div class="container-pied">
+      <div class="card" id="card1">
+        <div class="card-image"></div>
+        <div class="card-copy">
+          <h1>Kartingu noma</h1>
+          <p>10min brauciens - 15€</p>
+          <p>10min brauciens ar Rotax - 30€</p>
+        </div>
+      </div>
+      <div class="card" id="card2">
+        <div class="card-image"></div>
+        <div class="card-copy">
+          <h1>Kartingu noma</h1>
+          <p>10min brauciens - 15€</p>
+          <p>10min brauciens ar Rotax - 30€</p>
+        </div>
+      </div>
+      <div class="card" id="card3">
+        <div class="card-image"></div>
+        <div class="card-copy">
+          <h1>Kartingu noma</h1>
+          <p>10min brauciens - 15€</p>
+          <p>10min brauciens ar Rotax - 30€</p>
+        </div>
+      </div>
+    </div> -->
+
+
 
   </div>
 
@@ -140,15 +178,20 @@
   </div>
 
   <footer>
-    <button data-page="page2" class="page_buttons" id="par-mums-btn">
-      <h2 class="footer-text" id="par-mums-text">Par mums</h2>
+    <button data-page="page2" class="page_buttons">
+      <h2 class="footer-text">Par mums</h2>
     </button>
-    <h2 class="footer-text">29589595</h2>
+    <h2 class="footer-text"><a href="tel:29589595">29589595</a></h2>
     <h2 class="footer-text">Aku ceļš 1, Jelgava, LV-3008</h2>
-    <h2 class="footer-text">E-pasts: jelgavaskartodroms@inbox.lv</h2>
+    <h2 class="footer-text"><a href="mailto:jelgavaskartodroms@inbox.lv">E-pasts: jelgavaskartodroms@inbox.lv</a></h2>
     <img src="./images/logo.png" alt="logo" class="logo">
   </footer>
 
+  
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="https://unpkg.com/lenis@1.1.5/dist/lenis.min.js"></script>
+  <script src="./scripts/gsap.js"></script>
   <script src="./scripts/script.js"></script>
 </body>
 </html>
